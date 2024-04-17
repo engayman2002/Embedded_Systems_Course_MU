@@ -1,0 +1,142 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"35 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Lab6_NBA_Basketball_Counter\Lab6_NBA_BasketBall_Counter.X\main.c
+[v _Team1_Display Team1_Display `(v  1 e 1 0 ]
+"64
+[v _Team2_Display Team2_Display `(v  1 e 1 0 ]
+"91
+[v _initial_condition initial_condition `(v  1 e 1 0 ]
+"110
+[v _main main `(v  1 e 1 0 ]
+[s S101 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"233 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[u S110 . 1 `S101 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES110  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S23 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES32  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S51 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357
+[u S60 . 1 `S51 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES60  1 e 1 @8 ]
+[s S73 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1275
+[s S80 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S84 . 1 `S73 1 . 1 0 `S80 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES84  1 e 1 @129 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"110 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Lab6_NBA_Basketball_Counter\Lab6_NBA_BasketBall_Counter.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"123
+[v main@team2 team2 `uc  1 a 1 5 ]
+[v main@team1 team1 `uc  1 a 1 4 ]
+"153
+} 0
+"91
+[v _initial_condition initial_condition `(v  1 e 1 0 ]
+{
+"93
+[v initial_condition@num num `uc  1 a 1 3 ]
+"106
+} 0
+"64
+[v _Team2_Display Team2_Display `(v  1 e 1 0 ]
+{
+[v Team2_Display@num num `uc  1 a 1 wreg ]
+[v Team2_Display@num num `uc  1 a 1 wreg ]
+"67
+[v Team2_Display@num num `uc  1 a 1 2 ]
+"89
+} 0
+"35
+[v _Team1_Display Team1_Display `(v  1 e 1 0 ]
+{
+[v Team1_Display@num num `uc  1 a 1 wreg ]
+[v Team1_Display@num num `uc  1 a 1 wreg ]
+"38
+[v Team1_Display@num num `uc  1 a 1 2 ]
+"62
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 13 ]
+[v ___awmod@counter counter `uc  1 a 1 12 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 8 ]
+[v ___awmod@dividend dividend `i  1 p 2 10 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
