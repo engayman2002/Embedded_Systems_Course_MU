@@ -1,0 +1,323 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"3 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\keypad.c
+[v _keypad_init keypad_init `(v  1 e 1 0 ]
+"13
+[v _keypad_get_key keypad_get_key `(uc  1 e 1 0 ]
+"3 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\lcd.c
+[v _SET_LCD_DATA_PINS SET_LCD_DATA_PINS `(v  1 s 1 SET_LCD_DATA_PINS ]
+"22
+[v _LCD_SEND_4BIT_CMD LCD_SEND_4BIT_CMD `(v  1 s 1 LCD_SEND_4BIT_CMD ]
+"34
+[v _LCD_Write_Char LCD_Write_Char `(v  1 s 1 LCD_Write_Char ]
+"54
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"80
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"87
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+"107
+[v _lcd_chr lcd_chr `(v  1 e 1 0 ]
+"112
+[v _lcd_chr_cp lcd_chr_cp `(v  1 e 1 0 ]
+"18 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\main.c
+[v _Get_Expression Get_Expression `(v  1 e 1 0 ]
+"53
+[v _Delete_Pre_Num Delete_Pre_Num `(v  1 e 1 0 ]
+"69
+[v _Get_Pre_Num Get_Pre_Num `(i  1 e 2 0 ]
+"85
+[v _Solve_Mul_Div Solve_Mul_Div `(i  1 e 2 0 ]
+"113
+[v _Solve_Add_Sub Solve_Add_Sub `(i  1 e 2 0 ]
+"141
+[v _Solve_expr Solve_expr `(i  1 e 2 0 ]
+"149
+[v _Print_Result Print_Result `(v  1 e 1 0 ]
+"169
+[v _main main `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2753
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2756
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"2759
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2762
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2765
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2768
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2987
+[v _TRISD0 TRISD0 `VEb  1 e 0 @1088 ]
+"2990
+[v _TRISD1 TRISD1 `VEb  1 e 0 @1089 ]
+"2993
+[v _TRISD2 TRISD2 `VEb  1 e 0 @1090 ]
+"2996
+[v _TRISD3 TRISD3 `VEb  1 e 0 @1091 ]
+"2999
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"3002
+[v _TRISD5 TRISD5 `VEb  1 e 0 @1093 ]
+"169 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"179
+[v main@expr expr `[18]uc  1 a 18 30 ]
+"180
+[v main@i i `i  1 a 2 50 ]
+"177
+[v main@result result `i  1 a 2 48 ]
+"196
+} 0
+"54 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\lcd.c
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"79
+} 0
+"3 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\keypad.c
+[v _keypad_init keypad_init `(v  1 e 1 0 ]
+{
+"8
+} 0
+"141 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\main.c
+[v _Solve_expr Solve_expr `(i  1 e 2 0 ]
+{
+[v Solve_expr@expr expr `*.4uc  1 a 1 wreg ]
+"143
+[v Solve_expr@result result `i  1 a 2 27 ]
+"141
+[v Solve_expr@expr expr `*.4uc  1 a 1 wreg ]
+"143
+[v Solve_expr@expr expr `*.4uc  1 a 1 29 ]
+"147
+} 0
+"85
+[v _Solve_Mul_Div Solve_Mul_Div `(i  1 e 2 0 ]
+{
+[v Solve_Mul_Div@expr expr `*.4uc  1 a 1 wreg ]
+"88
+[v Solve_Mul_Div@i i `i  1 a 2 23 ]
+"87
+[v Solve_Mul_Div@result result `i  1 a 2 20 ]
+"85
+[v Solve_Mul_Div@expr expr `*.4uc  1 a 1 wreg ]
+"87
+[v Solve_Mul_Div@expr expr `*.4uc  1 a 1 22 ]
+"111
+} 0
+"69
+[v _Get_Pre_Num Get_Pre_Num `(i  1 e 2 0 ]
+{
+[v Get_Pre_Num@expr expr `*.4uc  1 a 1 wreg ]
+[v Get_Pre_Num@expr expr `*.4uc  1 a 1 wreg ]
+[v Get_Pre_Num@i i `uc  1 p 1 0 ]
+[v Get_Pre_Num@expr expr `*.4uc  1 a 1 4 ]
+"83
+} 0
+"53
+[v _Delete_Pre_Num Delete_Pre_Num `(v  1 e 1 0 ]
+{
+[v Delete_Pre_Num@expr expr `*.4uc  1 a 1 wreg ]
+"55
+[v Delete_Pre_Num@j j `uc  1 a 1 2 ]
+"53
+[v Delete_Pre_Num@expr expr `*.4uc  1 a 1 wreg ]
+[v Delete_Pre_Num@i i `uc  1 p 1 0 ]
+"55
+[v Delete_Pre_Num@expr expr `*.4uc  1 a 1 3 ]
+"67
+} 0
+"113
+[v _Solve_Add_Sub Solve_Add_Sub `(i  1 e 2 0 ]
+{
+[v Solve_Add_Sub@expr expr `*.4uc  1 a 1 wreg ]
+"116
+[v Solve_Add_Sub@i i `i  1 a 2 6 ]
+"115
+[v Solve_Add_Sub@result result `i  1 a 2 3 ]
+"113
+[v Solve_Add_Sub@expr expr `*.4uc  1 a 1 wreg ]
+"115
+[v Solve_Add_Sub@expr expr `*.4uc  1 a 1 5 ]
+"139
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\atoi.c
+[v _atoi atoi `(i  1 e 2 0 ]
+{
+[v atoi@s s `*.4DCuc  1 a 1 wreg ]
+"7
+[v atoi@n n `i  1 a 2 11 ]
+"8
+[v atoi@neg neg `a  1 a 1 10 ]
+"5
+[v atoi@s s `*.4DCuc  1 a 1 wreg ]
+"7
+[v atoi@s s `*.4DCuc  1 a 1 13 ]
+"24
+} 0
+"149 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\main.c
+[v _Print_Result Print_Result `(v  1 e 1 0 ]
+{
+"151
+[v Print_Result@col col `uc  1 a 1 17 ]
+[v Print_Result@row row `uc  1 a 1 16 ]
+[v Print_Result@flag flag `uc  1 a 1 15 ]
+"149
+[v Print_Result@result result `i  1 p 2 13 ]
+"167
+} 0
+"107 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\lcd.c
+[v _lcd_chr lcd_chr `(v  1 e 1 0 ]
+{
+[v lcd_chr@row row `uc  1 a 1 wreg ]
+[v lcd_chr@row row `uc  1 a 1 wreg ]
+[v lcd_chr@col col `uc  1 p 1 10 ]
+[v lcd_chr@chr chr `uc  1 p 1 11 ]
+"109
+[v lcd_chr@row row `uc  1 a 1 12 ]
+"111
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 11 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 10 ]
+[v ___awdiv@counter counter `uc  1 a 1 9 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 5 ]
+[v ___awdiv@dividend dividend `i  1 p 2 7 ]
+"41
+} 0
+"18 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\main.c
+[v _Get_Expression Get_Expression `(v  1 e 1 0 ]
+{
+[v Get_Expression@equ equ `*.4uc  1 a 1 wreg ]
+"24
+[v Get_Expression@expr expr `[17]uc  1 a 17 0 ]
+"25
+[v Get_Expression@i i `i  1 a 2 18 ]
+"18
+[v Get_Expression@equ equ `*.4uc  1 a 1 wreg ]
+"20
+[v Get_Expression@equ equ `*.4uc  1 a 1 17 ]
+"51
+} 0
+"87 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\lcd.c
+[v _lcd_set_cursor lcd_set_cursor `(v  1 e 1 0 ]
+{
+[v lcd_set_cursor@r r `uc  1 a 1 wreg ]
+"89
+[v lcd_set_cursor@Temp Temp `uc  1 a 1 9 ]
+[v lcd_set_cursor@High4 High4 `uc  1 a 1 8 ]
+[v lcd_set_cursor@Low4 Low4 `uc  1 a 1 7 ]
+"87
+[v lcd_set_cursor@r r `uc  1 a 1 wreg ]
+[v lcd_set_cursor@c c `uc  1 p 1 4 ]
+"90
+[v lcd_set_cursor@r r `uc  1 a 1 6 ]
+"106
+} 0
+"80
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@command command `uc  1 a 1 wreg ]
+[v lcd_cmd@command command `uc  1 a 1 wreg ]
+"83
+[v lcd_cmd@command command `uc  1 a 1 5 ]
+"86
+} 0
+"22
+[v _LCD_SEND_4BIT_CMD LCD_SEND_4BIT_CMD `(v  1 s 1 LCD_SEND_4BIT_CMD ]
+{
+[v LCD_SEND_4BIT_CMD@CMD CMD `uc  1 a 1 wreg ]
+[v LCD_SEND_4BIT_CMD@CMD CMD `uc  1 a 1 wreg ]
+"25
+[v LCD_SEND_4BIT_CMD@CMD CMD `uc  1 a 1 3 ]
+"32
+} 0
+"112
+[v _lcd_chr_cp lcd_chr_cp `(v  1 e 1 0 ]
+{
+[v lcd_chr_cp@chr chr `uc  1 a 1 wreg ]
+[v lcd_chr_cp@chr chr `uc  1 a 1 wreg ]
+"114
+[v lcd_chr_cp@chr chr `uc  1 a 1 6 ]
+"115
+} 0
+"34
+[v _LCD_Write_Char LCD_Write_Char `(v  1 s 1 LCD_Write_Char ]
+{
+[v LCD_Write_Char@Data Data `uc  1 a 1 wreg ]
+"36
+[v LCD_Write_Char@High4 High4 `uc  1 a 1 4 ]
+[v LCD_Write_Char@Low4 Low4 `uc  1 a 1 3 ]
+"34
+[v LCD_Write_Char@Data Data `uc  1 a 1 wreg ]
+"37
+[v LCD_Write_Char@Data Data `uc  1 a 1 5 ]
+"50
+} 0
+"3
+[v _SET_LCD_DATA_PINS SET_LCD_DATA_PINS `(v  1 s 1 SET_LCD_DATA_PINS ]
+{
+[v SET_LCD_DATA_PINS@Data Data `uc  1 a 1 wreg ]
+[v SET_LCD_DATA_PINS@Data Data `uc  1 a 1 wreg ]
+"5
+[v SET_LCD_DATA_PINS@Data Data `uc  1 a 1 0 ]
+"21
+} 0
+"13 D:\M_My_Working_Dir\Embedded_Systems_Course_MU\Challenges\Challenge_1\Challenge_1_Simple_Casio_Cal.X\keypad.c
+[v _keypad_get_key keypad_get_key `(uc  1 e 1 0 ]
+{
+"87
+} 0
