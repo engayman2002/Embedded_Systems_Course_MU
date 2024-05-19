@@ -1,8 +1,6 @@
 # Embedded_Systems_Course_MU
 Embedded Systems Course - Faculty of Engineering - Mansoura University
 
-We learnt Embedded Systems on PIC16f877A Microcontroller
+In the Embedded Systems course offered by the Faculty of Engineering at Mansoura University, we focused on programming and working with the PIC16F877A microcontroller. Below, you’ll find an overview of the tasks covered in this course.
 
-Here you can see my tasks of this course.
-
-Thank you for your time.
+Thank you for your time!
